@@ -193,7 +193,8 @@ hr {
 .player-flex {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    align-items: center;
+    padding: 10px 5px;
 }
 
 .player-left {
@@ -205,7 +206,7 @@ hr {
 .music-playing {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
 }
 
 .small-music {
@@ -216,4 +217,36 @@ hr {
 .flex-hf {
     display: flex;
     gap: 15px;
+}
+
+.player-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.opt-music {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 500px;
+    height: 3px;
+    color: lightgray;
+}
+
+.player-right {
+    display: flex;
+    gap: 10px;
+}
+
+.slider-small {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 3px;
+    color: lightgray;
 }
