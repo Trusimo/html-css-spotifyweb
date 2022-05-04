@@ -189,3 +189,31 @@ hr {
     max-width: 100%;
     max-height: 100%;
 }
+
+.player-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.player-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.music-playing {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.small-music {
+    height: 50px;
+    width: 50px;
+}
+
+.flex-hf {
+    display: flex;
+    gap: 15px;
+}
