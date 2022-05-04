@@ -68,6 +68,23 @@ hr {
     color: #777b7f;
 }
 
+.fontgrey:hover {
+    color: white;
+}
+
+.fontgreyname {
+    color: #777b7f;
+}
+
+.fontgrey-main {
+    color: #777b7f;
+}
+
+.fontgreyname:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .fontblack {
     color: black;
 }
@@ -147,9 +164,9 @@ hr {
     display: flex;
     justify-content: flex-end;
     flex-shrink: 0;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
 }
 
 .upgrade {
@@ -157,6 +174,10 @@ hr {
     border: 1px solid white;
     border-radius: 20px;
     padding: 5px 20px;
+}
+
+.upgrade:hover {
+    transform: scale(1.1);
 }
 
 .padding-main {
@@ -190,11 +211,16 @@ hr {
     max-height: 100%;
 }
 
+.music-img:hover {
+    opacity: 0.5;
+    background-color: black;
+}
+
 .player-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5px;
+    padding: 10px 10px;
 }
 
 .player-left {
@@ -241,7 +267,7 @@ hr {
 
 .player-right {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .slider-small {
