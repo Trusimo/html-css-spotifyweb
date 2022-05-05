@@ -21,6 +21,45 @@
         width: calc((100% / 2) - 20px)
     }
 
+    .sidebar {
+        width: 70px;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .display-min-none {
+        display: none;
+    }
+
+    .logo-big {
+        display: none;
+    }
+
+    .logo-small {
+        display: block;
+    }
+
+    .playlist-none {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .user {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .top-bar {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+
     .player-left {
         gap: 10px;
     }
@@ -37,21 +76,5 @@
 
     .player-right {
         gap: 10px;
-    }
-
-    .display-min-none {
-        display: none;
-    }
-
-    .playlist {
-        display: none;
-    }
-
-    hr {
-        display: none;
-    }
-
-    .sidebar {
-        width: 50px;
     }
 }

@@ -109,9 +109,18 @@ hr {
     padding-bottom: 10px;
 }
 
-.logo {
-    width: 135px;
+.logo-container {
     padding-bottom: 20px;
+}
+
+.logo-big {
+    width: 135px;
+    display: block;
+}
+
+.logo-small {
+    width: 40px;
+    display: none;
 }
 
 .playlist {
@@ -285,7 +294,7 @@ hr {
 
 .slider-small {
     -webkit-appearance: none;
-    width: 100%;
+    width: 50px;
     height: 3px;
     color: lightgray;
 }
