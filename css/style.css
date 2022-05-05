@@ -252,19 +252,27 @@ hr {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    flex-basis: 100%;
+    max-width: 400px;
 }
 
 .opt-music {
     display: flex;
     gap: 30px;
+    justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .slider {
     -webkit-appearance: none;
-    width: 500px;
+    width: 100%;
     height: 3px;
     color: lightgray;
+}
+
+.slidercontainer {
+    width: 100%;
 }
 
 .player-right {
@@ -274,7 +282,7 @@ hr {
 
 .slider-small {
     -webkit-appearance: none;
-    width: 100px;
+    width: 100%;
     height: 3px;
     color: lightgray;
 }
