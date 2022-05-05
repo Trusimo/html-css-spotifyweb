@@ -93,11 +93,6 @@ hr {
     font-size: 12px;
 }
 
-.list-none {
-    list-style: none;
-    line-height: 35px;
-}
-
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -125,6 +120,16 @@ hr {
 
 .playlist {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.playlist-list {
+    flex-grow: 1;
+    overflow: auto;
+    list-style: none;
+    line-height: 35px;
 }
 
 .icon-flex {
@@ -217,14 +222,43 @@ hr {
     gap: 10px;
 }
 
+.container-music {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.container-music:hover .overlay {
+    opacity: 1;
+}
+
+.container-music:hover .music-img {
+    opacity: 0.5;
+    background-color: black;
+}
+
+.icon-play {
+    position: absolute;
+    top: 37%;
+    left: 37%;
+}
+
 .music-img {
     max-width: 100%;
     max-height: 100%;
 }
 
-.music-img:hover {
-    opacity: 0.5;
-    background-color: black;
+.artist {
+    border-radius: 50%;
 }
 
 .player-flex {
