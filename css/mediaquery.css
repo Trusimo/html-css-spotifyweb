@@ -2,12 +2,56 @@
     .card-music-played {
         width: calc((100% / 4) - 20px);
     }
+}
 
-    .navbar {
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    .card-music-played {
+        width: calc((100% / 2) - 20px)
+    }
+
+    .flex-hf {
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
-        padding-bottom: 20px;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card-music-played {
+        width: calc((100% / 2) - 20px)
+    }
+
+    .player-left {
+        gap: 10px;
+    }
+
+    .music-playing {
+        gap: 5px;
+    }
+
+    .flex-hf {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .player-right {
+        gap: 10px;
+    }
+
+    .display-min-none {
+        display: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .sidebar {
+        width: 50px;
     }
 }

@@ -223,6 +223,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
+    gap: 20px;
 }
 
 .player-left {
@@ -273,11 +274,13 @@ hr {
 
 .slidercontainer {
     width: 100%;
+    flex-grow: 1;
 }
 
 .player-right {
     display: flex;
     gap: 20px;
+    max-width: 200px;
 }
 
 .slider-small {
