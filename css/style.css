@@ -187,6 +187,7 @@ hr {
 .navbar {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
     padding-bottom: 20px;
 }
@@ -195,10 +196,11 @@ hr {
     display: flex;
     padding: 20px 0;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card-music-played {
-    width: calc(100% / 6);
+    width: calc((100% / 6) - 20px);
     display: flex;
     flex-direction: column;
     align-items: center;
